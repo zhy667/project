@@ -20,7 +20,7 @@ window.onload = function() {
             
                 const year = "2014";
                 const make = "DODGE";
-                const url = `https://example.com/?year=${year}&make=${make}`;
+                const url = `https://staging.moxaprotection.com/?year=${year}&make=${make}`;
                 window.open(url, "_blank");
                 
               
@@ -39,4 +39,3 @@ window.onload = function() {
         console.log('Vehicle is ' + result.Vehicle);
     })
 };
-window.alert("sometext");
