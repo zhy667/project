@@ -13,14 +13,13 @@ window.onload = function() {
         if (vehicleElement && vehicleElement.textContent.includes("Vehicle")) {
             
             const button = document.createElement("button");
-            button.innerText = "Click me";
+            button.innerText = "Click me1";
             vehicleElement.insertAdjacentElement("afterend", button);
            
             button.addEventListener("click", function() {
             
-                const year = "2014";
-                const make = "DODGE";
-                const url = `https://staging.moxaprotection.com/?year=${year}&make=${make}`;
+            
+                const url = `https://example.com/?year=${year}&make=${make}`;
                 window.open(url, "_blank");
                 
               
